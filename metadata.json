@@ -1,0 +1,6 @@
+{
+  "name": "Arfeen Tariq — Personal Archive",
+  "description": "The personal editorial archive and portfolio of Arfeen Tariq. Student, Learner, Explorer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

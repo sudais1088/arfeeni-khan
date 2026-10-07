@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-base: #FAF8F5;
+    --text-primary: #1C1B1A;
+    --text-muted: #5E5B56;
+    --border-hairline: #E8E4DC;
+    --accent-olive: #434E3C;
+    --accent-copper: #9E5B3D;
+  }
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', Georgia, Cambria, 'Times New Roman', serif;
+}
+
+.font-sans {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* Subtle editorial hairline borders */
+.border-editorial {
+  border-color: #E8E4DC;
+}
+
+/* Subtle image filter to keep warm editorial photography look */
+.editorial-image {
+  filter: contrast(102%) saturate(96%);
+}
